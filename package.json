@@ -1,0 +1,37 @@
+{
+  "name": "react-i",
+  "version": "1.0.0",
+  "description": "Curso practico de React",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonzojosue/React-I.git"
+  },
+  "keywords": [
+    "platzi"
+  ],
+  "author": "Josue Alfonzo <16-00436@sb.ve\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dusb.ve>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfonzojosue/React-I/issues"
+  },
+  "homepage": "https://github.com/alfonzojosue/React-I#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
