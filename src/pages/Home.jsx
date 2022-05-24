@@ -1,10 +1,10 @@
 import React from 'react'
+import Header from '../components/Header';
+import CreateNewPassword from '../containers/CreateNewPassword';
 
 const Home = () => {
 return (
-    <div>
-    <h1>React Shop</h1>
-    </div>
+    <Header />
 )
 }
 
