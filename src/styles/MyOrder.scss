@@ -1,11 +1,48 @@
 @import 'vars';
 
+@keyframes swipeLeft {
+	0% {
+	width: 0;
+	}
+	100% {
+	width: 360px;
+	}
+}
+
+@keyframes swipeRigth {
+	0% {
+	width: 0;
+	}
+	100% {
+	width: 360px;
+	}
+}
+
+.MyOrder::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+.MyOrder::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+.MyOrder::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
 .MyOrder {
 	width: 360px;
 	padding: 24px;
 	box-sizing: border-box;
 	position: absolute;
 	right: 0;
+	background-color: white;
+	top: 60px;
+	bottom: auto;
+	border-radius: 6px;
+	border: 1px solid var(--very-light-pink) ;
+	animation: swipeLeft 0.46s ease;
+	overflow-y: auto ;
+	height: 350px;
 }
 .title-container {
 	display: flex;

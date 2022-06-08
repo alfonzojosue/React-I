@@ -2,3 +2,11 @@ body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
 }
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--very-light-pink);/* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+}
